@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    padding: 5%;
+    background-color: #cad622;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#mail {
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+a#mycv {
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+section#header {
+    position: relative;
+    float: right;
+    line-height: 1%;
+    /* width: inherit;
+	margin-left: inherit; */
+}
+
+section#details {
+    float: right;
+}
+
+div {
+    /* width: 50%;
+    display: inline-block; */
+    margin-right: 10%;
+}
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    float: center;
+    background-color: #000000;
+    clear: both;
+}
+
+section#social a {
+    float: right;
+    font-size: 150%;
+}
+
+section#social h2 {
+    float: right;
+    margin-left: -100%;
+    line-height: 30%;
+}
+
+section#social {
+    clear: both;
+}
+
+section#social a {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+section#details {
+    clear: both;
+    margin-top: 20px;
+}
+
+
+ button a{
+ 	line-height: 100%;
+ 	display: inline-block;
+ 	margin-right: 10px;
+
+ }
+
+section#details button {
+    margin: 5px 0px 10px 0px;
+}
+
+section#details button a {
+    font-weight: bolder;
+}
+
+div#slides {
+    max-width: 70;
+    height: auto;
+    display: block;
+    margin-right: 2px;
+}
+
+@media only screen and (max-width:480px) 
+{
+    /* For Mobiles: */
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h3 {
+        display: block;
+        width: 100%;
+        background-color: black !important;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid black;
+        font-weight: bolder;
+    }
+    button{
+        display: block;
+    }
+
+    img#profile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:880px) 
+{
+    /* Smaller Tablets: */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
